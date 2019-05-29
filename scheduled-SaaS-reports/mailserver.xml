@@ -1,0 +1,8 @@
+      <entry name="Email-Server-Profile">
+        <server>
+          <entry name="{{ server-name }}">
+            <display-name>{{ from-name }}</display-name>
+            <gateway>{{ server-address }}</gateway>
+            <from>{{ from-address }}</from>
+            <to>{{ to-address }}</to>
+          </entry>
