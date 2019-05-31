@@ -1,4 +1,4 @@
-      <entry name="Email-Server-Profile">
+      <entry name="Email_Server_Profile">
         <server>
           <entry name="{{ server_name }}">
             <display-name>{{ from_name }}</display-name>
