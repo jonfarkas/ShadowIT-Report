@@ -1,4 +1,4 @@
-      <entry name="7-Day-SaaS-Detailed">
+      <entry name="7_Day_SaaS_Detailed">
         <all>
           <entry>
             <include-user-groups-info>no</include-user-groups-info>
@@ -17,7 +17,7 @@
         </variable>
         <predefined>saas-application-usage-report</predefined>
       </entry>
-      <entry name="30-Day-SaaS-Detailed">
+      <entry name="30_Day_SaaS_Detailed">
         <all>
           <entry>
             <include-user-groups-info>no</include-user-groups-info>
@@ -36,7 +36,7 @@
         </variable>
         <predefined>saas-application-usage-report</predefined>
       </entry>
-      <entry name="90-Day-SaaS-Detailed">
+      <entry name="90_Day_SaaS_Detailed">
         <all>
           <entry>
             <include-user-groups-info>no</include-user-groups-info>
