@@ -4,8 +4,8 @@
 # unique snippet name
 name: Shadow-IT_Report
 # label used for menu selection
-label: yaml metafile
-description: Used in panhandler to generate a .meta-cnc.yaml skeleton file
+label: Scheduled Shadow-IT Report
+description: Used to configure a scheduled Shadow-IT - SaaS Application Usage Report - To be delivered each week
 
 # type of device configuration
 # common types are panorama, panos, and template
