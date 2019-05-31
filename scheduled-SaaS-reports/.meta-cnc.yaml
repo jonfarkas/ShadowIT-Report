@@ -49,7 +49,12 @@ variables:
   - name: report-group
     description: PDF Report Group
     default: 7-Day-SaaS-Detailed
-    type_hint: 7 30 or 90 Day Reports
+    type_hint: dropdown
+    dd_list:
+      -  key: 7-Days
+         - value: 7-Day-SaaS-Detailed
+       - key: 30-Days
+         - value: 30-Day-SaaS-Detailed
 
 # Reports Variables
 
