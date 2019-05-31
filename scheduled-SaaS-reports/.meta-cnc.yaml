@@ -22,6 +22,7 @@ labels:
 # type_hint defines the form field used by panhandler
 # type_hints can be text, ip_address, or dropdown
 variables:
+
 # Email Server Settings
   - name: server-name
     description: Email Server Friendly Name
