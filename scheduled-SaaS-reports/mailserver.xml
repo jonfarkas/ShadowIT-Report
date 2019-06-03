@@ -6,3 +6,5 @@
             <from>{{ from_address }}</from>
             <to>{{ to_address }}</to>
           </entry>
+        </server>
+      </entry>
