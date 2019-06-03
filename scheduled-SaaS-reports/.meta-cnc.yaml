@@ -66,6 +66,6 @@ snippets:
   - name: mailserver
     xpath: /config/shared/log-settings/email
     file: mailserver.xml
-#  - name: email_scheduler
-#    xpath: /config/shared/email-scheduler
-#    file: email-scheduler.xml
+  - name: email_scheduler
+    xpath: /config/shared/email-scheduler
+    file: email-scheduler.xml
