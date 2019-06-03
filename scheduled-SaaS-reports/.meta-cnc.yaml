@@ -63,9 +63,9 @@ snippets:
   - name: reports
     xpath: /config/shared/report-group
     file: reports.xml
-#  - name: mailserver
-#    xpath: /config/shared/log-settings/email
-#    file: mailserver.xml
+  - name: mailserver
+    xpath: /config/shared/log-settings/email
+    file: mailserver.xml
 #  - name: email_scheduler
 #    xpath: /config/shared/email-scheduler
 #    file: email-scheduler.xml
