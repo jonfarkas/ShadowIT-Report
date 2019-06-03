@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3868c7e5-8f48-48c1-b860-5ba18a23394f" name="Default Changelist" comment="variables defined">
-      <change beforePath="$PROJECT_DIR$/scheduled-SaaS-reports/.meta-cnc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/scheduled-SaaS-reports/.meta-cnc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduled-SaaS-reports/email-scheduler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scheduled-SaaS-reports/email-scheduler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +12,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/.meta-cnc.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            <state relative-caret-position="222">
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/reports.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="440">
+              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+              <folding>
+                <element signature="n#entry#1;n#!!top" />
+                <element signature="n#entry#2;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/mailserver.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -67,9 +70,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/scheduled-SaaS-reports/reports.xml" />
+        <option value="$PROJECT_DIR$/scheduled-SaaS-reports/email-scheduler.xml" />
         <option value="$PROJECT_DIR$/scheduled-SaaS-reports/mailserver.xml" />
         <option value="$PROJECT_DIR$/scheduled-SaaS-reports/.meta-cnc.yaml" />
-        <option value="$PROJECT_DIR$/scheduled-SaaS-reports/email-scheduler.xml" />
       </list>
     </option>
   </component>
@@ -139,6 +142,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21001221" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -167,8 +171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/mailserver.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -179,17 +183,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/reports.xml">
+    <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/.meta-cnc.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="222">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/.meta-cnc.yaml">
+    <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/reports.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        <state relative-caret-position="440">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="n#entry#1;n#!!top" />
+            <element signature="n#entry#2;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
