@@ -47,14 +47,14 @@ variables:
 
 # Email Scheduler Variables
   - name: report_group
-    description: PDF Report Group
+    description: "How many days of data?"
     default: 7_Day_SaaS_Detailed
-    type_hint:
-#    dd_list:
-#      - key: 7_Days
-#      - value: 7_Day_SaaS_Detailed
-#      - key: 30_Days
-#      - value: 30_Day_SaaS_Detailed
+    type_hint: dropdown
+    dd_list:
+      - key: "7 Days"
+        value: 7_Day_SaaS_Detailed
+      - key: "30 Days"
+        value: 30_Day_SaaS_Detailed
 
 # Reports Variables
 

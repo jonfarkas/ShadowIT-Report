@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/email-scheduler.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="43" selection-start-column="17" selection-end-column="44" />
+            <state relative-caret-position="22">
+              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -57,8 +57,8 @@
       <find>group</find>
       <find>report</find>
       <find>profile</find>
-      <find>Profilehh</find>
       <find>Profile</find>
+      <find>Profilehh</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,9 +68,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/scheduled-SaaS-reports/reports.xml" />
-        <option value="$PROJECT_DIR$/scheduled-SaaS-reports/email-scheduler.xml" />
         <option value="$PROJECT_DIR$/scheduled-SaaS-reports/mailserver.xml" />
         <option value="$PROJECT_DIR$/scheduled-SaaS-reports/.meta-cnc.yaml" />
+        <option value="$PROJECT_DIR$/scheduled-SaaS-reports/email-scheduler.xml" />
       </list>
     </option>
   </component>
@@ -140,7 +140,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21001221" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -174,13 +173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/.meta-cnc.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/reports.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -192,10 +184,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/.meta-cnc.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scheduled-SaaS-reports/email-scheduler.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="17" selection-end-column="44" />
+        <state relative-caret-position="22">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
