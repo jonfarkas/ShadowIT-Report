@@ -1,0 +1,7 @@
+    <entry name="Scheduled-Shadow-IT-Report">
+      <report-group>{{ report_group }}</report-group>
+      <email-profile>Email_Server_Profile</email-profile>
+      <recurring>
+        <weekly>sunday</weekly>
+      </recurring>
+    </entry>

@@ -1,0 +1,71 @@
+# part of the panhandler application with docs at
+# https://github.com/PaloAltoNetworks/panhandler/blob/develop/docs/metadata_configuration.rst
+
+# unique snippet name
+name: Panorama_ShadowIT_Report
+# label used for menu selection
+label: Scheduled ShadowIT Report from Panorama
+description: Used to configure a scheduled Shadow-IT - SaaS Application Usage Report from Panorama provining visibility across all NGFW - To be delivered each week
+
+# type of device configuration
+# common types are panorama, panos, and template
+type: panorama
+# preload static or default-based templates
+extends:
+
+# grouping of like snippets for dynamic menu creation in panhandler
+labels:
+    collection:
+       - SaaS
+
+# variables used in the configuration templates
+# type_hint defines the form field used by panhandler
+# type_hints can be text, ip_address, or dropdown
+variables:
+
+# Email Server Settings
+  - name: server_name
+    description: Email Server Friendly Name
+    default: ServerName
+    type_hint: Friendly Name for Email Server
+  - name: from_name
+    description: From Name
+    default: SaaS Usage Report
+    type_hint: Email from Name
+  - name: from_address
+    description: Source Email Address
+    default: from@address.com
+    type_hint: Source Email Address
+  - name: to_address
+    description: Email Recipient Address
+    default: to@address.com
+    type_hint: Address to send the Shadow-IT Report to
+  - name: server_address
+    description: Email Server Address or FQDN
+    default: x.x.x.x
+    type_hint: Email Server IP Address or FQDN
+
+# Email Scheduler Variables
+  - name: report_group
+    description: "How many days of data?"
+    default: 7_Day_SaaS_Detailed
+    type_hint: dropdown
+    dd_list:
+      - key: "7 Days"
+        value: 7_Day_SaaS_Detailed
+      - key: "30 Days"
+        value: 30_Day_SaaS_Detailed
+
+# Reports Variables
+
+
+snippets:
+  - name: reports
+    xpath: /config/shared/report-group
+    file: reports.xml
+  - name: mailserver
+    xpath: /config/panorama/log-settings/email
+    file: mailserver.xml
+  - name: email_scheduler
+    xpath: /config/shared/email-scheduler
+    file: email-scheduler.xml
